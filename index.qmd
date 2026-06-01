@@ -1,0 +1,22 @@
+---
+title: "Pedidos auditados"
+format: html
+editor: visual
+---
+El presente documento muestra el resultado de la auditoría a nivel central de los pedidos de excepción recibidos a partir del mes de Septiembre de 2025.
+
+Para consultar resultados de auditorías previas, consultar directamente al comité mediante [biotecnologiasneuquen@gmail.com](mailto:biotecnologiasneuquen@gmail.com)
+
+
+## Pedidos auditados
+
+Use "search" para buscar por paciente, DNI, zona o droga
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+source("auditorias.R")
+DT::datatable(consolidado)
+
+```
